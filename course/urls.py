@@ -3,11 +3,12 @@ from django.conf.urls.static import static
 from django.urls import path
 from . import views
 
-app_name='post'
+app_name='course'
 
 urlpatterns = [
-    path('blog/', views.blog, name='blog'),
-    path('blog/detail/<int:id>', views.post_detail, name='post-detail'),
+
+    #path('blog/', views.blog, name='blog'),
+
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # pragma: nocover

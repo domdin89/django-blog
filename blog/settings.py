@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'posts',
     'categories',
     'home',
+    'course',
 ]
 
 MIDDLEWARE = [
